@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
  * main - Entry point of the program
  *
@@ -12,6 +11,5 @@ int main(void)
 
     if (write(2, message, len) != len)
         return 1;
-
     return (1);
 }
