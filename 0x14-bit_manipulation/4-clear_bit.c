@@ -2,11 +2,9 @@
 
 /**
  * By Peter Anthony Pepple
- * clear_bit - sets the value of a given bit to 0
- * @n: pointer to the number to change
- * @index: index of the bit to clear
- *
- * Return: 1 for success, -1 for failure
+ * clear_bit - this function created, returns the value of a given bit to 0
+ * @n: This exist as a pointer to the number to change
+ * @index: this is the location or index of the bit to clear
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
