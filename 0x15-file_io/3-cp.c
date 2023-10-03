@@ -6,11 +6,11 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * Explanations of terms used in the code process
- * create_buffer - This function let's you allocates 1024 bytes for a buffer.
- * @file: This parameter allow the name of the file buffer for storing chars.
+ * By Peter Anthony Pepple Explanations of terms used in the code process
+ * By Peter Anthony Pepple create_buffer - This function let's you allocates 1024 bytes for a buffer.
+ * @file: By Peter Anthony Pepple This parameter allow the name of the file buffer for storing chars.
  *
- * Return: This  let's you allow a pointer to the newly-allocated buffer.
+ * Return: By Peter Anthony Pepple This  let's you allow a pointer to the newly-allocated buffer.
  */
 char *create_buffer(char *file)
 {
@@ -29,9 +29,9 @@ char *create_buffer(char *file)
 }
 
 /**
- * This explanation covers this block of code
- * close_file - This function let's you close file descriptors.
- * @fd:This is a specifier, which let's you specify the file descriptor to be closed.
+ * This explanation covers this block of code By Peter Anthony Pepple
+ * close_file - This function let's you close file descriptors. By Peter Anthony Pepple
+ * @fd:This is a specifier, which let's you specify the file descriptor to be closed.By Peter Anthony Pepple
  */
 void close_file(int fd)
 {
@@ -47,18 +47,18 @@ void close_file(int fd)
 }
 
 /**
- * This Terminology Explanation covers this block of code.
+ * This Terminology Explanation covers this block of code. By Peter Anthony Pepple
  *
- * main - this function let's you copy the contents of a given file to another file.
- * @argc: this function returns the number of arguments supplied to the program.
- * @argv: This funtion generates an array of pointers to the arguments.
+ * main - this function let's you copy the contents of a given file to another file. By Peter Anthony Pepple
+ * @argc: this function returns the number of arguments supplied to the program. By Peter Anthony Pepple
+ * @argv: This funtion generates an array of pointers to the arguments. By Peter Anthony Pepple
  *
- * Return: 0 on success.
+ * Return: 0 on success. By Peter Anthony Pepple
  *
- * Futher Descriptions the code: For instance If the argument count is incorrect or invalid- exit code 97.
- * For instance If file_from does not exist or cannot be read - exit code 98.
- * In the code If file_to cannot be created or written i.e (readonly) to - exit code 99.
- * In the code If file_to or file_from cannot be closed (unwrittable) - exit code 100.
+ * Futher Descriptions the code: For instance If the argument count is incorrect or invalid- exit code 97.By Peter Anthony Pepple
+ * For instance If file_from does not exist or cannot be read - exit code 98.By Peter Anthony Pepple
+ * In the code If file_to cannot be created or written i.e (readonly) to - exit code 99.By Peter Anthony Pepple
+ * In the code If file_to or file_from cannot be closed (unwrittable) - exit code 100.By Peter Anthony Pepple
  */
 int main(int argc, char *argv[])
 {
