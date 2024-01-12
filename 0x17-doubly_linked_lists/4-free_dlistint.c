@@ -2,7 +2,7 @@
 
 /**
  * free_dlistint - frees a dlistint_t list
- * 
+ *
  * @head: head of the list
  * Return: no return
  */
